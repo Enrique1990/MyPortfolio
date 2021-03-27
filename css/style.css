@@ -1968,6 +1968,10 @@ body.offcanvas .colorlib-nav-toggle {
   margin-left: 113px;
 }
 
+.resumeHover:hover {
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .colorlib-nav-toggle {
     opacity: 1;
@@ -2049,9 +2053,19 @@ body.offcanvas .colorlib-nav-toggle {
   box-shadow: none !important;  */
 }
 
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+}
+
 .projectName {
   position: relative;
-  left: 10px;
+  left: 41px;
 }
 
 #trip {
