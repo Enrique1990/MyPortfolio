@@ -1984,6 +1984,7 @@ body.offcanvas .colorlib-nav-toggle {
     float: none;
     width: 100%;
   }
+
 }
 
 .row-bottom-padded-lg {
@@ -2054,23 +2055,28 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .row2 {
+  position: relative;
   display: flex;
   flex-direction: row;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .row3 {
+  position: relative;
   display: flex;
   flex-direction: row;
 }
 
 .projectName {
   position: relative;
-  left: 41px;
+  left: 0%;
 }
 
 #trip {
   position: relative;
   display: flex;
+  /* float: none; */
   flex-direction: column;
 }
 
